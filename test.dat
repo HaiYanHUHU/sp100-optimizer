@@ -1,0 +1,15 @@
+set STOCKS := AAPL MSFT GOOGL;
+
+set DATES := 1 2 3;
+
+param q := 2;
+
+param returns :  1       2       3 :=
+AAPL            0.01    -0.02   0.03
+MSFT            0.02    0.01    -0.01
+GOOGL           -0.01   0.02    0.01;
+
+param benchmark :=
+1   0.01
+2   0.015
+3   0.02;
