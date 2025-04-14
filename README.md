@@ -15,20 +15,6 @@ An optimizer that tracks the S&P 100 index using fewer than 100 stocks. It uses 
 
 ## 
 
-1. Run portfolio analysis:
-```bash
-python src/portfolio_analysis.py
-```
-
-2. Run optimization:
-```bash
-# AMPL method
-python src/ampl_runner.py
-
-# PCA method
-python src/pca_approach.py
-```
-
 ```
 
 ## Dependencies
