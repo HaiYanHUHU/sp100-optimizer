@@ -115,14 +115,14 @@ def plot_results(weights, portfolio_returns, benchmark_returns):
         plt.title('3-Month Rolling Correlation with Benchmark')
         plt.axhline(y=0.95, color='r', linestyle='--', label='0.95 Correlation Target')
         plt.legend()
-        
-        plt.tight_layout()
+    
+    plt.tight_layout()
         
         # Save results
         os.makedirs('results', exist_ok=True)
         plt.savefig('results/ampl_portfolio.png')
-        plt.close()
-        
+    plt.close()
+
         logging.info("Results plotted and saved to results/ampl_portfolio.png")
         
     except Exception as e:
